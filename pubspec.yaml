@@ -1,0 +1,27 @@
+name: app_v2
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  rflutter_alert: ^2.0.4  # Ensure this is the latest version
+  video_player: ^2.9.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/video/
+    - assets/video/quiz_video.mp4
